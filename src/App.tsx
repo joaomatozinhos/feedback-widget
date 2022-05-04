@@ -1,8 +1,10 @@
-import { useState } from 'react'
+import {Widget} from "./components/Widget"
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <div className='flex gap-8'>
+      <Widget></Widget>
+    </div>
   )
 }
 

@@ -1,3 +1,5 @@
+import {ChatTeardropDots} from 'phosphor-react';
+
 import { useState } from "react"
 
 export function Widget () {
@@ -12,7 +14,7 @@ export function Widget () {
       {isWidgetOpen ? <p>Hello</p> : null}
 
       <button onClick={toggleWidgetVisibility} className='bg-[#8257e5] rounded-full px-3 h-12 text-white flex items-center group'>
-        <h1 className='w-6 h-6'>Chat</h1>
+        <ChatTeardropDots className='w-6 h-6'></ChatTeardropDots>
         <span className='max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-linear'>
           Feedback
         </span>

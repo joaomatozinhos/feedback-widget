@@ -1,9 +1,9 @@
-import {Widget} from "./components/Widget"
+import {WidgetButton} from "./components/WidgetButton"
 
 function App() {
   return (
     <div className='flex gap-8'>
-      <Widget></Widget>
+      <WidgetButton></WidgetButton>
     </div>
   )
 }

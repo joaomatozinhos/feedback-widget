@@ -14,7 +14,11 @@ export function FeedbackContentStep(props: FeedbackContentStepProps, onFeedbackR
   return (
     <>
       <header>
-        <button type="button" className="top-5 left-5 absolute text-zinc-400 hover:text-zinc-100" onClick={props.onFeedbackRestartRequested}>
+        <button 
+          type="button" 
+          onClick={props.onFeedbackRestartRequested}
+          className="top-5 left-5 absolute text-zinc-400 hover:text-zinc-100"
+        >
           <ArrowLeft weight="bold" className="w-4 h-4" />
         </button>
 
@@ -33,7 +37,10 @@ export function FeedbackContentStep(props: FeedbackContentStepProps, onFeedbackR
         <footer className="flex gap-2 mt-2">
           <ScreenshotButton/>
 
-          <button type="submit" className="p-2 bg-brand-500 rounded-md border-transparent flex-1 flex justify-center items-start text-sm hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 transition-colors">
+          <button 
+            type="submit" 
+            className="p-2 bg-brand-500 rounded-md border-transparent flex-1 flex justify-center items-start text-sm hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 transition-colors"
+          >
             Enviar feedback
           </button>
         </footer>

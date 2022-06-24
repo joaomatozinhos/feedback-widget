@@ -21,4 +21,6 @@ Only the front-end part was created.
 - **phospor-react** to add icons
 - **headlessui** for accessibility
 
-<!-- ## See the result: -->
+## See the result:
+
+https://joaomatozinhos.github.io/feedback-widget/
